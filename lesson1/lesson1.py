@@ -18,7 +18,7 @@ name = 'Mohamed'
 city = 'Cairo'
 
 # string concatination(joining)
-print(name + ' is from ' + city)    
+print(name + ' is from ' + city)   
 
 # string formatting using f-string
 print(f'{name} is {age} years old and from {city} ')
