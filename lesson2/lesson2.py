@@ -84,26 +84,26 @@ print('Elevator is full')
 # functions
 #hello name function
 
+def say_Hello(name):
+    print(f"Hello, {name}")
+
+
+say_Hello("Asmaa")
+say_Hello("ALi")
+say_Hello("Laila")
+say_Hello("Sara")
+
 #sum function
-# def say_Hello(name):
-#     print(f"Hello, {name}")
 
-
-# say_Hello("Asmaa")
-# say_Hello("ALi")
-# say_Hello("Laila")
-# say_Hello("Sara")
-
-
-# def sum_two_numbers( num1, num2):
-#     result = num1 + num2
-#     return result
+def sum_two_numbers( num1, num2):
+    result = num1 + num2
+    return result
 
 
 
-# print(sum_two_numbers( 3, 9))
-# print(sum_two_numbers( 3, 9566))
-# print(sum_two_numbers( 99, 100))
+print(sum_two_numbers( 3, 9))
+print(sum_two_numbers( 3, 9566))
+print(sum_two_numbers( 99, 100))
 
 # days in hours function
 def calculate_days_in_hours(days):
