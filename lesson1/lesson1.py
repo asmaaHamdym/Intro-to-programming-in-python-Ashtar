@@ -2,34 +2,34 @@
 print("Hello World")
 
 # # Arithmatic operators
-# print(2 + 7)
-# print(5 - 2)
-# print(3 * 5)
-# print(9 / 3)
-# print(7 % 2)
-# print(7 ** 2)
+print(2 + 7)
+print(5 - 2)
+print(3 * 5)
+print(9 / 3)
+print(7 % 2)
+print(7 ** 2)
 
 # # declare a variable of number data type
 # # the = sign means we assign the value on the left to the variable on the right
-# age = 34
+age = 34
 
 # # declare a variable with string data type
-# name = 'Mohamed'
-# city = 'Cairo'
+name = 'Mohamed'
+city = 'Cairo'
 
 # # string concatination(joining)
-# print(name + ' is from ' + city)   
+print(name + ' is from ' + city)   
 
 # # string formatting using f-string
-# print(f'{name} is {age} years old and from {city} ')
+print(f'{name} is {age} years old and from {city} ')
 
 # #some string methods
-# print(name.upper())
-# print(name.lower())
-# print("mohamed".count('m'))
-# print("mohamed".find('m'))
-# print("mohamed".replace('m', 'M'))
-# print("mohamed".startswith('m'))
+print(name.upper())
+print(name.lower())
+print("mohamed".count('m'))
+print("mohamed".find('m'))
+print("mohamed".replace('m', 'M'))
+print("mohamed".startswith('m'))
 
 
 # # comments start with a # sign
