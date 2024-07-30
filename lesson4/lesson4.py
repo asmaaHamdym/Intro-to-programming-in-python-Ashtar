@@ -36,6 +36,7 @@ student_names = [
     'Osama', # index 2
     'Mohamed'# index 3
     ]
+# Negative Indexing
 print(cities[-1])  # Output: New York
 print(numbers[-2])  # Output: 4
     
@@ -83,6 +84,7 @@ print(cities)
 
 # In operator in Lists
 # The in operator is used to check if a value is present in a list or not
+# Result of the folowing expression is either True or False
 print('Paris' in cities)
 print('Paris' not in cities)
 
@@ -138,7 +140,7 @@ people = [
     ]
 
 #  for loops with Dicts
-for person in people: 
+for person in people:
     print(f'{person["name"]} is {person["age"]} years old')
 
 
