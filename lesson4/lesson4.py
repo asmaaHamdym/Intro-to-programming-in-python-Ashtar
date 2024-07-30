@@ -1,4 +1,4 @@
-# There are four mistakes in this program. What are the mistakes and how would you x them?
+# There are four mistakes in this program. What are the mistakes and how would you fix them?
 # carrots = input('How many carrots do you have? ')
 # rabbits = 6
 
@@ -138,7 +138,7 @@ people = [
     ]
 
 #  for loops with Dicts
-for person in people:   
+for person in people: 
     print(f'{person["name"]} is {person["age"]} years old')
 
 
